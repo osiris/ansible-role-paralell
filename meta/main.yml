@@ -1,0 +1,19 @@
+---
+
+galaxy_info:
+  author: Osiris Alejandro Gomez
+  company: gcoop Cooperativa de Software Libre
+  description: Ansible role to parallelize tasks using GNU parallel
+  license: GPLv3
+  min_ansible_version: '2.18'
+  namespace: gcoop-libre
+  role_name: parallel
+  platforms:
+    - name: Debian
+      versions:
+        - bookworm
+        - trixie
+  galaxy_tags:
+    - parallel
+    - automate
+dependencies: []
